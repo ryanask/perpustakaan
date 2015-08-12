@@ -1,8 +1,9 @@
 package id.co.askrindo.perpustakaan.entity;
 
 public class Rak {
-	Integer id;
-	Integer namaRak;
+    
+    private Integer id;
+    private String namaRak;
 
     public Integer getId() {
         return id;
@@ -12,11 +13,11 @@ public class Rak {
         this.id = id;
     }
 
-    public Integer getNamaRak() {
+    public String getNamaRak() {
         return namaRak;
     }
 
-    public void setNamaRak(Integer namaRak) {
+    public void setNamaRak(String namaRak) {
         this.namaRak = namaRak;
     }
 
