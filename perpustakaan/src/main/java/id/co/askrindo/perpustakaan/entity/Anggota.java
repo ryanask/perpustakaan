@@ -26,9 +26,7 @@ public class Anggota {
         return alamat;
     }
 
-    public void setAlamat(String alamat) {
-        this.alamat = alamat;
-    }
+
     
     
 }
