@@ -5,7 +5,7 @@ public class Anggota {
     String nip;
     String nama;
     String alamat;
-
+    
     public String getNip() {
         return nip;
     }
@@ -26,6 +26,9 @@ public class Anggota {
         return alamat;
     }
 
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
 
     
     
